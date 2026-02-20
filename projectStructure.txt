@@ -1,0 +1,32 @@
+fastapi-mysql-backend/
+│
+├── app/
+│   ├── core/               # App configuration
+│   │   ├── config.py
+│   │   ├── security.py
+│   │
+│   ├── db/                 # Database setup
+│   │   ├── base.py
+│   │   ├── session.py
+│   │
+│   ├── models/
+│   │   ├── user.py
+│   │
+│   ├── schemas/
+│   │   ├── user.py
+│   │   ├── token.py
+│   │
+│   ├── crud/
+│   │   ├── user.py
+│   │
+│   ├── api/
+│   │   ├── deps.py
+│   │   ├── routes/
+│   │   │   ├── auth.py
+│   │   │   ├── users.py
+│   │
+│   ├── main.py
+│
+├── .env
+├── pyproject.toml
+└── uv.lock
